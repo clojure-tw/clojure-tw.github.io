@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
-@import url("font-awesome.min.css");
 
 /*
 	Aerial by HTML5 UP
@@ -172,96 +171,17 @@
 /* BG */
 
 	#bg {
-		-moz-animation: bg 60s linear infinite;
-		-webkit-animation: bg 60s linear infinite;
-		-ms-animation: bg 60s linear infinite;
-		animation: bg 60s linear infinite;
-		-moz-backface-visibility: hidden;
-		-webkit-backface-visibility: hidden;
-		-ms-backface-visibility: hidden;
-		backface-visibility: hidden;
-		-moz-transform: translate3d(0,0,0);
-		-webkit-transform: translate3d(0,0,0);
-		-ms-transform: translate3d(0,0,0);
-		transform: translate3d(0,0,0);
-	/* Set your background with this */
-
-		background: #348cb2 url("images/bg.jpg") bottom left;
-		background-repeat: repeat-x;
+		/* Source:http://sf.co.ua/id46047 */
+		background: #348cb2 url("images/bg.jpg") no-repeat center center fixed;
 		height: 100%;
-		left: 0;
 		opacity: 1;
-		position: fixed;
-		top: 0;
-	}
-
-	@-moz-keyframes bg {
-		0% {
-			-moz-transform: translate3d(0,0,0);
-			-webkit-transform: translate3d(0,0,0);
-			-ms-transform: translate3d(0,0,0);
-			transform: translate3d(0,0,0);
-		}
-
-		100% {
-			-moz-transform: translate3d(-2250px,0,0);
-			-webkit-transform: translate3d(-2250px,0,0);
-			-ms-transform: translate3d(-2250px,0,0);
-			transform: translate3d(-2250px,0,0);
-		}
-	}
-
-	@-webkit-keyframes bg {
-		0% {
-			-moz-transform: translate3d(0,0,0);
-			-webkit-transform: translate3d(0,0,0);
-			-ms-transform: translate3d(0,0,0);
-			transform: translate3d(0,0,0);
-		}
-
-		100% {
-			-moz-transform: translate3d(-2250px,0,0);
-			-webkit-transform: translate3d(-2250px,0,0);
-			-ms-transform: translate3d(-2250px,0,0);
-			transform: translate3d(-2250px,0,0);
-		}
-	}
-
-	@-ms-keyframes bg {
-		0% {
-			-moz-transform: translate3d(0,0,0);
-			-webkit-transform: translate3d(0,0,0);
-			-ms-transform: translate3d(0,0,0);
-			transform: translate3d(0,0,0);
-		}
-
-		100% {
-			-moz-transform: translate3d(-2250px,0,0);
-			-webkit-transform: translate3d(-2250px,0,0);
-			-ms-transform: translate3d(-2250px,0,0);
-			transform: translate3d(-2250px,0,0);
-		}
-	}
-
-	@keyframes bg {
-		0% {
-			-moz-transform: translate3d(0,0,0);
-			-webkit-transform: translate3d(0,0,0);
-			-ms-transform: translate3d(0,0,0);
-			transform: translate3d(0,0,0);
-		}
-
-		100% {
-			-moz-transform: translate3d(-2250px,0,0);
-			-webkit-transform: translate3d(-2250px,0,0);
-			-ms-transform: translate3d(-2250px,0,0);
-			transform: translate3d(-2250px,0,0);
-		}
 	}
 
 	#bg {
-		background-size: 2250px auto;
-		width: 6750px;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 /* Overlay */
@@ -764,8 +684,13 @@
 		}
 
 		#bg {
-			background-size: 1500px auto;
-			width: 4500px;
+					-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+//			background-size: 1500px auto;
+//			width: 4500px;
 		} }
 
 /* Normal */
@@ -844,11 +769,7 @@
 				transform: translate3d(-750px,0,0);
 			}
 		}
-
-		#bg {
-			background-size: 750px auto;
-			width: 2250px;
-		} }
+	}
 
 /* Mobile */
 
@@ -929,11 +850,6 @@
 				-ms-transform: translate3d(-300px,0,0);
 				transform: translate3d(-300px,0,0);
 			}
-		}
-
-		#bg {
-			background-size: 300px auto;
-			width: 900px;
 		}
 
 	/* Header */
@@ -1027,11 +943,6 @@
 				-ms-transform: translate3d(-412.5px,0,0);
 				transform: translate3d(-412.5px,0,0);
 			}
-		}
-
-		#bg {
-			background-size: 412.5px auto;
-			width: 1237.5px;
 		}
 
 	/* Header */
